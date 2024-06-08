@@ -62,10 +62,10 @@ The chosen loss criteria for the GO_RecoNet model is MSE (Mean Squared Error) to
 ## Drop Rate 0.2 with a Learnable Mask
 
 <p align="center">
-  <img src="/images/02_with.jpg" alt="Original, Subsampled, Reconstructed - Learnable Mask" width="600">
+  <img src="/images/02_with.jpg" alt="Original, Subsampled, Reconstructed - Learnable Mask" width="400">
 </p>
 <p align="center">
-  <img src="/images/02_with_graph.jpg" alt="Training Graph - Learnable Mask" width="600">
+  <img src="/images/02_with_graph.jpg.png" alt="Training Graph - Learnable Mask" width="400">
 </p>
 
 ## Drop Rate 0.2 without a Learnable Mask
