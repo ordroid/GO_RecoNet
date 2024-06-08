@@ -12,17 +12,17 @@ In this project, we considered some reconstruction architectures such as U-Net, 
 - **Input**: First passes through a sampling layer.
 - **U-Net Architecture**:  
   - **Encoding Phase**: Involves sequential application of encoder blocks each consisting of a convolutional layer (kernel size=5, stride=2), normalization, ReLU, and max pooling (kernel size=2).
-<p align="center">
-  ![Encoder](/images/encoder.png)
-</p>
+    <p align="center">
+      <img src="/images/encoder.png" alt="Encoder" width="600">
+    </p>
   - **Bottleneck**: The input undergoes max pooling, a 1x1 convolution, and interpolation, followed by concatenation + convolution to reduce the features.
-<p align="center">
-  ![Bottleneck](/images/bottleneck.png)
-</p>
+    <p align="center">
+      <img src="/images/bottleneck.png" alt="Bottleneck" width="600">
+    </p>
   - **Decoding Phase**: Sequentially applies decoder blocks with up-sampling, convolutional layers (kernel size=5, stride=2), normalization, ReLU, incorporating skip connections, and finally, an interpolation produces the output image.
-<p align="center">
-  ![Decoder](/images/decoder.png)
-</p>
+    <p align="center">
+      <img src="/images/decoder.png" alt="Decoder" width="600">
+    </p>
 
 ## Why We think that this was a good choice for us?
 
@@ -61,39 +61,57 @@ The chosen loss criteria for the GO_RecoNet model is MSE (Mean Squared Error) to
 
 ## Drop Rate 0.2 with a Learnable Mask
 
-![Original, Subsampled, Reconstructed - Learnable Mask](/images/02_with.jpg)
-
-![Training Graph - Learnable Mask](/images/02_with_graph.jpg.png)
+<p align="center">
+  <img src="/images/02_with.jpg" alt="Original, Subsampled, Reconstructed - Learnable Mask" width="600">
+</p>
+<p align="center">
+  <img src="/images/02_with_graph.jpg" alt="Training Graph - Learnable Mask" width="600">
+</p>
 
 ## Drop Rate 0.2 without a Learnable Mask
 
-![Original, Subsampled, Reconstructed - Non-Learnable Mask](/images/02_no.jpg)
-
-![Training Graph - Non-Learnable Mask](/images/02_no_graph.png)
+<p align="center">
+  <img src="/images/02_no.jpg" alt="Original, Subsampled, Reconstructed - Non-Learnable Mask" width="600">
+</p>
+<p align="center">
+  <img src="/images/02_no_graph.png" alt="Training Graph - Non-Learnable Mask" width="600">
+</p>
 
 ## Drop Rate 0.4 with a Learnable Mask
 
-![Original, Subsampled, Reconstructed - Learnable Mask](/images/04_with.jpg)
-
-![Training Graph - Learnable Mask](/images/04_with_graph.png)
+<p align="center">
+  <img src="/images/04_with.jpg" alt="Original, Subsampled, Reconstructed - Learnable Mask" width="600">
+</p>
+<p align="center">
+  <img src="/images/04_with_graph.png" alt="Training Graph - Learnable Mask" width="600">
+</p>
 
 ## Drop Rate 0.4 without a Learnable Mask
 
-![Original, Subsampled, Reconstructed - Non-Learnable Mask](/images/04_no.jpg)
-
-![Training Graph - Non-Learnable Mask](/images/04_no_graph.png)
+<p align="center">
+  <img src="/images/04_no.jpg" alt="Original, Subsampled, Reconstructed - Non-Learnable Mask" width="600">
+</p>
+<p align="center">
+  <img src="/images/04_no_graph.png" alt="Training Graph - Non-Learnable Mask" width="600">
+</p>
 
 ## Drop Rate 0.6 with a Learnable Mask
 
-![Original, Subsampled, Reconstructed - Learnable Mask](/images/06_with.jpg)
-
-![Training Graph - Learnable Mask](/images/06_with_graph.png)
+<p align="center">
+  <img src="/images/06_with.jpg" alt="Original, Subsampled, Reconstructed - Learnable Mask" width="600">
+</p>
+<p align="center">
+  <img src="/images/06_with_graph.png" alt="Training Graph - Learnable Mask" width="600">
+</p>
 
 ## Drop Rate 0.6 without a Learnable Mask
 
-![Original, Subsampled, Reconstructed - Non-Learnable Mask](/images/06_no.jpg)
-
-![Training Graph - Non-Learnable Mask](/images/06_no_graph.png)
+<p align="center">
+  <img src="/images/06_no.jpg" alt="Original, Subsampled, Reconstructed - Non-Learnable Mask" width="600">
+</p>
+<p align="center">
+  <img src="/images/06_no_graph.png" alt="Training Graph - Non-Learnable Mask" width="600">
+</p>
 
 ## Future Work
 
@@ -104,6 +122,3 @@ We will suggest experimenting with the following ideas:
 - **Improved Loss Function**: Conduct experiments with perceptual loss or some variation of multi-scale loss.
 - **Mixed Precision Training**: Speed up the training process and allow for handling larger batch sizes without compromising performance.
 
-## Visualization of Results
-
-![Training Graph for Drop rate 0.2 with Learnable Mask](/path/to/image1.png)
