@@ -12,17 +12,11 @@ In this project, we considered some reconstruction architectures such as U-Net, 
 - **Input**: First passes through a sampling layer.
 - **U-Net Architecture**:  
   - **Encoding Phase**: Involves sequential application of encoder blocks each consisting of a convolutional layer (kernel size=5, stride=2), normalization, ReLU, and max pooling (kernel size=2).
-<p align="center">
-![Encoder](/images/encoder.png)
-</p>
+<p align="center">![Encoder](/images/encoder.png)</p>
   - **Bottleneck**: The input undergoes max pooling, a 1x1 convolution, and interpolation, followed by concatenation + convolution to reduce the features.
-<p align="center">
-![Bottleneck](/images/bottleneck.png)
-</p>
+<p align="center">![Bottleneck](/images/bottleneck.png)</p>
   - **Decoding Phase**: Sequentially applies decoder blocks with up-sampling, convolutional layers (kernel size=5, stride=2), normalization, ReLU, incorporating skip connections, and finally, an interpolation produces the output image.
-<p align="center">
-![Decoder](/images/decoder.png)
-</p>
+<p align="center">![Decoder](/images/decoder.png)</p>
 
 ## Why We think that this was a good choice for us?
 
