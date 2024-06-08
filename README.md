@@ -7,6 +7,7 @@ After installing and activating the environment, run script.sh file which includ
 
 ## Overview
 Note: This is the shortened version of our documentation. For more detailed information, please check out the PDF named: [ReadMe-More_Info.pdf](/ReadMe-More_Info.pdf).
+
 In this project, we considered some reconstruction architectures such as U-Net, deep residual network, Transformers, SRGAN (a version of GAN), and custom CNNs. The chosen network was U-Net with skip connections, detailed as follows:
 
 - **Input**: First passes through a sampling layer.
