@@ -71,46 +71,46 @@ The chosen loss criteria for the GO_RecoNet model is MSE (Mean Squared Error) to
 ## Drop Rate 0.2 without a Learnable Mask
 
 <p align="center">
-  <img src="/images/02_no.jpg" alt="Original, Subsampled, Reconstructed - Non-Learnable Mask" width="600">
+  <img src="/images/02_no.jpg" alt="Original, Subsampled, Reconstructed - Non-Learnable Mask" width="400">
 </p>
 <p align="center">
-  <img src="/images/02_no_graph.png" alt="Training Graph - Non-Learnable Mask" width="600">
+  <img src="/images/02_no_graph.png" alt="Training Graph - Non-Learnable Mask" width="400">
 </p>
 
 ## Drop Rate 0.4 with a Learnable Mask
 
 <p align="center">
-  <img src="/images/04_with.jpg" alt="Original, Subsampled, Reconstructed - Learnable Mask" width="600">
+  <img src="/images/04_with.jpg" alt="Original, Subsampled, Reconstructed - Learnable Mask" width="400">
 </p>
 <p align="center">
-  <img src="/images/04_with_graph.png" alt="Training Graph - Learnable Mask" width="600">
+  <img src="/images/04_with_graph.png" alt="Training Graph - Learnable Mask" width="400">
 </p>
 
 ## Drop Rate 0.4 without a Learnable Mask
 
 <p align="center">
-  <img src="/images/04_no.jpg" alt="Original, Subsampled, Reconstructed - Non-Learnable Mask" width="600">
+  <img src="/images/04_no.jpg" alt="Original, Subsampled, Reconstructed - Non-Learnable Mask" width="400">
 </p>
 <p align="center">
-  <img src="/images/04_no_graph.png" alt="Training Graph - Non-Learnable Mask" width="600">
+  <img src="/images/04_no_graph.png" alt="Training Graph - Non-Learnable Mask" width="400">
 </p>
 
 ## Drop Rate 0.6 with a Learnable Mask
 
 <p align="center">
-  <img src="/images/06_with.jpg" alt="Original, Subsampled, Reconstructed - Learnable Mask" width="600">
+  <img src="/images/06_with.jpg" alt="Original, Subsampled, Reconstructed - Learnable Mask" width="400">
 </p>
 <p align="center">
-  <img src="/images/06_with_graph.png" alt="Training Graph - Learnable Mask" width="600">
+  <img src="/images/06_with_graph.png" alt="Training Graph - Learnable Mask" width="400">
 </p>
 
 ## Drop Rate 0.6 without a Learnable Mask
 
 <p align="center">
-  <img src="/images/06_no.jpg" alt="Original, Subsampled, Reconstructed - Non-Learnable Mask" width="600">
+  <img src="/images/06_no.jpg" alt="Original, Subsampled, Reconstructed - Non-Learnable Mask" width="400">
 </p>
 <p align="center">
-  <img src="/images/06_no_graph.png" alt="Training Graph - Non-Learnable Mask" width="600">
+  <img src="/images/06_no_graph.png" alt="Training Graph - Non-Learnable Mask" width="400">
 </p>
 
 ## Future Work
